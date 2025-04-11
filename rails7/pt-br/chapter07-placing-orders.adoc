@@ -105,7 +105,7 @@ Vamos gerar este modelo:
 
 [source,bash]
 ----
-$ rails generate model placement order:belongs_to product:belongs_to
+$ rails generate model Placement order:belongs_to product:belongs_to
 ----
 
 Vamos executar a migração no banco de dados:

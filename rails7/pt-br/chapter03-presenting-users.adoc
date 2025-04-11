@@ -56,10 +56,10 @@ Este comando gera muitos arquivos! Não se preocupe, nós iremos revisá-los um 
 
 O arquivo de migração na pasta `db/migrate` contém a *migration* que descreve as mudanças que irão acontecer no banco de dados. Este arquivo deve ser parecido com isso:
 
-.db/migrate/20190603195146_create_users.rb
+.db/migrate/20240530141927_create_users.rb
 [source,ruby]
 ----
-class CreateUsers < ActiveRecord::Migration[6.0]
+class CreateUsers < ActiveRecord::Migration[7.0]
   def change
     create_table :users do |t|
       t.string :email

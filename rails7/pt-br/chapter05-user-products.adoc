@@ -59,9 +59,9 @@ NOTE: Nós usamos o tipo `belongs_to` para o atributo `user`. Este é um atalho 
 O arquivo de migração deve se parecer com o bloco abaixo:
 
 [source,ruby]
-.db/migrate/20190608205942_create_products.rb
+.db/migrate/20240531123536_create_products.rb
 ----
-class CreateProducts < ActiveRecord::Migration[6.0]
+class CreateProducts < ActiveRecord::Migration[7.0]
   def change
     create_table :products do |t|
       t.string :title

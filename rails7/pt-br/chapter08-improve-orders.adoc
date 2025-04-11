@@ -36,9 +36,9 @@ Espere, não rode as migrations agora. Nós vamos fazer uma pequena modificaçã
 O seu arquivo de migração deve se parecer com o seguinte:
 
 [source,ruby]
-.db/migrate/20190621105101_add_quantity_to_products.rb
+.db/migrate/20240602161926_add_quantity_to_products.rb
 ----
-class AddQuantityToProducts < ActiveRecord::Migration[6.0]
+class AddQuantityToProducts < ActiveRecord::Migration[7.0]
   def change
     add_column :products, :quantity, :integer, default: 0
   end
@@ -226,9 +226,9 @@ $ rails generate migration add_quantity_to_placements quantity:integer
 Do mesmo modo que com o atributo de migração quantidade para produto, nós devemos adicionar o valor padrão igual a 0. Lembre-se que isso é opcional mas eu gosto desta abordagem. O arquivo de migração deve se parecer com o seguinte:
 
 [source,ruby]
-.db/migrate/20190621114614_add_quantity_to_placements.rb
+.db/migrate/20240602164656_add_quantity_to_placements.rb
 ----
-class AddQuantityToPlacements < ActiveRecord::Migration[6.0]
+class AddQuantityToPlacements < ActiveRecord::Migration[7.0]
   def change
     add_column :placements, :quantity, :integer, default: 0
   end
