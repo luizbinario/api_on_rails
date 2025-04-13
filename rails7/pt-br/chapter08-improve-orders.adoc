@@ -1,5 +1,5 @@
 [#chapter08-improve_orders]
-= Melhorando pedidos
+== Melhorando pedidos
 
 No capítulo anterior, nós aumentamos a nossa API para fazer pedidos e enviar um e-mail de confirmação para o usuário (apenas para melhorar a experiência do usuário). Este capítulo irá cuidar de algumas validações no modelo de pedidos, apenas para ter certeza de que ele é localizável, como:
 

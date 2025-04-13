@@ -1,9 +1,9 @@
 [#chapter01-introduction]
 = Introdução
 
-Bem-vindo ao API no Rails 6, um tutorial com esteróides para aprender o melhor modo de construir a sua próxima API com Rails. O propósito deste livro é prover uma metodologia compreensiva para desenvolver uma API RESTful seguindo as melhores práticas.
+Bem-vindo ao API no Rails 7, um tutorial com esteróides para aprender o melhor modo de construir a sua próxima API com Rails. O propósito deste livro é prover uma metodologia compreensiva para desenvolver uma API RESTful seguindo as melhores práticas.
 
-Assim que você terminar este livro, você será capaz de criar a sua própria API e integrá-la com qualquer cliente, como um navegador web ou aplicação mobile. O código gerado é construído com Ruby on Rails 6.0.
+Assim que você terminar este livro, você será capaz de criar a sua própria API e integrá-la com qualquer cliente, como um navegador web ou aplicação mobile. O código gerado é construído com Ruby on Rails 7.0.
 
 O propósito deste livro não é apenas te ensinar como construir uma API com Rails mas sim como construir um API *evolutiva* e *sustentável* com o Rails. Isto é, melhorar o seu conhecimento atual com o Rails. Nesta jornada, você irá aprender:
 
@@ -175,7 +175,7 @@ Como você pode adivinhar, os comandos acima irão gerar os alicerces da sua apl
 
 == Versionamento
 
-Lembre-se que o Git te ajuda a rastrear e manter o histórico do seu código. Tenha em mente que o código fonte da aplicação está publicado no GitHub. Você pode seguir o projeto em https://github.com/madeindjs/market_place_api_6[GitHub].
+Lembre-se que o Git te ajuda a rastrear e manter o histórico do seu código. Tenha em mente que o código fonte da aplicação está publicado no GitHub. Você pode seguir o projeto em na versão 6 do rails no GitHub (compatível o Rails 7). https://github.com/luizbinario/market_place_api_7[GitHub].
 
 
 O Ruby on Rails inicializou o diretório Git pra você quando você usou o comando `rails new. Isso significa que você não precisa executar o comando `git init`.
@@ -228,7 +228,7 @@ Por último e como um passo opcional, nós configuramos o projeto GitHub (Eu nã
 
 [source,bash]
 ----
-$ git remote add origin git@github.com:madeindjs/market_place_api_6.git
+$ git remote add origin git@github.com:luizbinario/market_place_api_7.git
 ----
 
 Então nós enviamos o código:

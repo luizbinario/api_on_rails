@@ -1,20 +1,21 @@
-= API on Rails 6
-Alexandre Rousseau <contact@rousseau-alexandre.fr>
-v6.20, 2021-03-25
+= API on Rails 7
+Alexandre Rousseau <contact@rousseau-alexandre.fr>, Luiz Carlos dos santos Junior <luiz1987@gmail.com>
+v6.20, 2025-06-04
 :doctype: book
 :toc:
+:toc-title: Índice
 :imagesdir: img
-:title-logo-image: image:logo.svg[]
+:title-logo-image: image:logo.png[]
 :homepage: https://github.com/madeindjs/api_on_rails/
 :source-highlighter: rouge
 // epub tags
 :copyright: CC-BY-SA 4.0, MIT
 :keywords: Rails, API, Ruby, Software
-:lang: en
+:lang: pt-br
 :author: Alexandre Rousseau, Luiz Carlos dos Santos Junior
-:description: Aprenda as melhores práticas para construir uma API utilizando Ruby on Rails 6
-:front-cover-image: image:cover.svg[]
-:revdate: 2021-03-25
+:description: Aprenda as melhores práticas para construir uma API utilizando Ruby on Rails 7
+:front-cover-image: image:cover.png[]
+:revdate: 2025-04-11
 
 include::chapter00-before.adoc[]
 

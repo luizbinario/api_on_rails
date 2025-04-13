@@ -527,7 +527,6 @@ $ rake test
 ...........F
 
 Failure:
-OrderTest#test_Should_have_a_positive_total [/home/arousseau/github/madeindjs/market_place_api/test/models/order_test.rb:14]:
 Expected true to be nil or false
 
 
