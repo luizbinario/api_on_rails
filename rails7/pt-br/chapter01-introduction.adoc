@@ -110,7 +110,7 @@ Agora é a hora de instalar as dependências restantes que iremos utilizar.
 
 ==== Gems, Rails e Bibliotecas que faltam
 
-Primeiro, nós atualizamos as gemas do sistema:
+Primeiro, nós atualizamos as gems do sistema:
 
 [source,bash]
 ----
