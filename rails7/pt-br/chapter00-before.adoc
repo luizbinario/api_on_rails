@@ -1,11 +1,11 @@
 [#chapter00-before]
-= Antes
+= ******
 
 == Prefácio
 
-"API on Rails 6" é baseado no livro http://apionrails.icalialabs.com/book/["APIs on Rails: Building REST APIs with Rails"]. Ele foi inicialmente publicado em 2014 por https://twitter.com/kurenn[Abraham Kuri] sob as licenças http://opensource.org/licenses/MIT[MIT] e http://people.freebsd.org/~phk/[Beerware].
+"API on Rails 7" é baseado no livro http://apionrails.icalialabs.com/book/["APIs on Rails: Building REST APIs with Rails"]. Ele foi inicialmente publicado em 2014 por https://twitter.com/kurenn[Abraham Kuri] sob as licenças http://opensource.org/licenses/MIT[MIT] e http://people.freebsd.org/~phk/[Beerware].
 
-A primeira versão não foi mantida e foi inicialmente planejada para a versão 4 do Ruby on Rails, que não https://guides.rubyonrails.org/maintenance_policy.html#security-issues[recebe mais atualizações de segurança]. Eu quis atualizar este excelente livro, adaptando-o para novas versões do Ruby on Rails. Contudo, este livro está disponível para as versões 5.2, 6.0 (a que você está lendo no momento) e 6.1 do Ruby on Rails.
+A primeira versão não foi mantida e foi inicialmente planejada para a versão 4 do Ruby on Rails, que não https://guides.rubyonrails.org/maintenance_policy.html#security-issues[recebe mais atualizações de segurança]. Eu quis atualizar este excelente livro, adaptando-o para novas versões do Ruby on Rails. Contudo, este livro está disponível para as versões 5.2, 6.0, 6.1 e 7.0 (a que você está lendo no momento) do Ruby on Rails.
 
 NOTE: Este livro está disponível em francês, Inglês, Espanhol e Português.
 
@@ -21,7 +21,7 @@ O código fonte deste livro está disponível no formato https://asciidoctor.org
 
 Desenvolvedor Web com mais de 13 anos de experiência, trabalhando tanto com desenvolvimento frontend, como com backend. Bacharel em Ciência da Computação, Pós-graduado em MBA em Tecnologia da Informação e Licenciado em Filosofia.
 
-Editor da versão em Português.
+Responsável pela edição, adaptação e atualização da versão em português do livro "API on Rails 7", originalmente escrito por Alexandre Rousseau.
 
 Acompanhe os meus projetos no http://github.com/luizbinario/[Github].
 
@@ -40,7 +40,10 @@ O aviso de direitos autorais acima e este aviso de permissão devem ser incluíd
 O SOFTWARE É FORNECIDO "COMO ESTÁ", SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU IMPLÍCITA, INCLUINDO, MAS NÃO SE LIMITANDO ÀS GARANTIAS DE COMERCIALIZAÇÃO, ADEQUAÇÃO A UM DETERMINADO FIM E NÃO INFRAÇÃO. EM NENHUM CASO OS AUTORES OU DETENTORES DE DIREITOS AUTORAIS SERÃO RESPONSÁVEIS POR QUALQUER REIVINDICAÇÃO, DANOS OU OUTRA RESPONSABILIDADE, SEJA EM AÇÃO DE CONTRATO, INDENIZAÇÃO OU DE OUTRA FORMA, DECORRENTE, FORA OU EM CONEXÃO COM O SOFTWARE OU O USO OU OUTRAS NEGOCIAÇÕES NO SOFTWARE.
 ****
 
-"API on Rails 6" por https://github.com/madeindjs/api_on_rails[Alexandre Rousseau] é compartilhado de acordo com a http://creativecommons.org/licenses/by-sa/4.0/[Creative Commons Attribution - Attribution-ShareAlike 4.0 International]. Construído sobre este livro: http://apionrails.icalialabs.com/book/.
+"API on Rails 7" por https://github.com/madeindjs/api_on_rails[Alexandre Rousseau] é compartilhado de acordo com a http://creativecommons.org/licenses/by-sa/4.0/[Creative Commons Attribution - Attribution-ShareAlike 4.0 International]. Construído sobre este livro: http://apionrails.icalialabs.com/book/.
+
+Esta versão em português foi adaptada, revisada e editada por Luiz Carlos dos Santos Junior, com base na obra original de Alexandre Rousseau, conforme os termos da licença Creative Commons Attribution-ShareAlike 4.0 International.  
+Fonte original: https://github.com/madeindjs/api_on_rails
 
 == Agradecimentos
 
